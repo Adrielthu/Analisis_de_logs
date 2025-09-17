@@ -6,7 +6,6 @@
 
 # Variables de entorno
 .env
-.env.*
 
 # Archivos temporales y del sistema
 .DS_Store
