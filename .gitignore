@@ -1,0 +1,27 @@
+.env
+
+# CARPETAS LOCALES
+/data/          # <- Bind mount en jupyter: ./data:/home/jovyan/work/data
+/logs/          # <- Bind mount en jupyter: ./logs:/home/jovyan/work/logs
+
+# Variables de entorno
+.env
+.env.*
+
+# Archivos temporales y del sistema
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+
+# Jupyter
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+*.pyo
+
+# Carpetas de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
