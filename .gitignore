@@ -1,8 +1,6 @@
-.env
-
 # CARPETAS LOCALES
-/data/          # <- Bind mount en jupyter: ./data:/home/jovyan/work/data
-/logs/          # <- Bind mount en jupyter: ./logs:/home/jovyan/work/logs
+data/         # <- Bind mount en jupyter: ./data:/home/jovyan/work/data
+logs/          # <- Bind mount en jupyter: ./logs:/home/jovyan/work/logs
 
 # Variables de entorno
 .env
