@@ -1,6 +1,7 @@
 # CARPETAS LOCALES
 /data/
 /logs/
+/init-scripts/01-create-grafana.sql
 
 # Variables de entorno
 .env
